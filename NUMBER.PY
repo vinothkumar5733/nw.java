@@ -11,3 +11,5 @@ button = button + 1
 print(button * 3)
 button = button + 1
 print(button * 3)
+button = button + 1
+print(button * 3)
