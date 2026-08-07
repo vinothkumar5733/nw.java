@@ -25,3 +25,6 @@ while n <= 5:
 
 # EX: 03
 
+max_value = int(input("Enter the maximum value: "))
+fc = 1
+n = 1
