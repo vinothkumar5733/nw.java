@@ -10,3 +10,15 @@ print(button * 3)
 button = button + 1
 print(button * 3)
 button = button + 1
+
+
+# EX: 02
+
+n = 0
+i = 1
+while n <= 5:
+    n = n + 15
+    i = i * 25
+    print(n, i)
+    if(n , i ==5):
+     print(n + 40)
