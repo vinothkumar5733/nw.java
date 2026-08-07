@@ -29,3 +29,5 @@ max_value = int(input("Enter the maximum value: "))
 fc = 1
 n = 1
 while n <= max_value:
+    fc = fc * n
+    n += 1
