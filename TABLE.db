@@ -5,3 +5,5 @@ CREATE TABLE students (
 	email TEXT UNIQUE
 );
 
+select * from students.age
+
