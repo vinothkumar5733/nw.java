@@ -37,3 +37,5 @@ while n <= max_value:
 
 num = int(input("Enter a number: "))
 print(num * 2)
+for i in range(1, 6):
+    print(num * 2)
