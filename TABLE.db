@@ -7,3 +7,5 @@ CREATE TABLE students (
 
 select * from students.age
 
+
+
