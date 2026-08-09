@@ -31,3 +31,9 @@ n = 1
 while n <= max_value:
     fc = fc * n
     n += 1
+
+
+# ex 04
+
+num = int(input("Enter a number: "))
+print(num * 2)
