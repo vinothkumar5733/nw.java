@@ -22,3 +22,13 @@ while totalFeet > 0:
     day = day + 1
 
 print(day)
+
+# ex : 03
+totalfeet = 60
+up = 2
+night = 0.5
+days = 0
+while totalfeet > 0:
+    days += 1
+    totalfeet -= up
+print(days)    
