@@ -7,4 +7,6 @@ while up < 60:
     day = day + 1
     up = up - down
 print(day)
+print(up)
+print(down)
 
