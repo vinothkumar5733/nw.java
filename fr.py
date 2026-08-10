@@ -32,3 +32,23 @@ while totalfeet > 0:
     days += 1
     totalfeet -= up
 print(days)    
+
+# ex : 04
+
+no = 1
+while no <=5:
+    print(no)    # 1 2 3 4 5 
+    if no == 5:
+        break
+
+    no+=1
+else:
+    print(no+10)
+
+# ex : 05
+no = 1
+while no <=5:
+    print(no)    # 1 2 3 4 5 
+    no+=1    
+else:
+    print(no+10) 
