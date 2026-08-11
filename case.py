@@ -6,3 +6,11 @@ while lashes > 1:
     print(lashes)
     print(guard)
 print('guard count is:', guard)
+
+# ex : 02
+
+police = 0
+thief = 40
+while thief > police:
+    police = police + 2
+    print('police:', police)
