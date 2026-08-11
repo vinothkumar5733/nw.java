@@ -52,3 +52,10 @@ while no <=5:
     no+=1    
 else:
     print(no+10) 
+
+
+# ex : 06
+
+saint = 1
+temple = 0
+while temple < 5:
