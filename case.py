@@ -14,3 +14,16 @@ thief = 40
 while thief > police:
     police = police + 2
     print('police:', police)
+    print('thief:', thief)
+
+
+# ex : 03
+
+police, thief = 0, 40
+step = 0
+while thief > police:
+    police = police + 5
+    thief = thief + 2
+    step+=1
+print(police)
+print(step)
