@@ -1,41 +1,41 @@
-# guard = 0
-# lashes = 1024
-# while lashes > 1:
-#     lashes //=2
-#     guard +=1
-#     print(lashes)
-#     print(guard)
-# print('guard count is:', guard)
+guard = 0
+lashes = 1024
+while lashes > 1:
+    lashes //=2
+    guard +=1
+    print(lashes)
+    print(guard)
+print('guard count is:', guard)
 
-# # ex : 02
+# ex : 02
 
-# police = 0
-# thief = 40
-# while thief > police:
-#     police = police + 2
-#     print('police:', police)
-#     print('thief:', thief)
+police = 0
+thief = 40
+while thief > police:
+    police = police + 2
+    print('police:', police)
+    print('thief:', thief)
 
 
-# # ex : 03
+# ex : 03
 
-# police, thief = 0, 40
-# step = 0
-# while thief > police:
-#     police = police + 5
-#     thief = thief + 2
-#     step+=1
-# print(police)
-# print(step)
+police, thief = 0, 40
+step = 0
+while thief > police:
+    police = police + 5
+    thief = thief + 2
+    step+=1
+print(police)
+print(step)
 
-# # ex : 04
+# ex : 04
 
-# guard = 4
-# i=1
-# while guard > i:
+guard = 4
+i=1
+while guard > i:
 
-#     guard = guard + 2
-#     i = i + 1
+    guard = guard + 2
+    i = i + 1
 
 # ex : 05
 
