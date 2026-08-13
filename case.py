@@ -46,3 +46,12 @@ while n<=100:
         print(n)
     i+=1
 
+# ex : 06
+
+n1 = 1024
+div = 1
+while n <=div:
+    if n1 % div ==0:
+        print(div)
+
+    div+=1
