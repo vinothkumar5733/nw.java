@@ -1,0 +1,15 @@
+CREATE TABLE courses (
+    course_id INT PRIMARY KEY,
+    course_name VARCHAR(50)
+);
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    student_name VARCHAR(50),
+    course_id INT REFERENCES courses(course_id)
+);
+
+INSERT INTO courses VALUES (101, 'Java'), (102, 'Python'), (103, 'Software Testing');
+
+INSERT INTO students VALUES (1, 'Viyan', 101), (2, 'Kavin', 102), (3, 'Mathi', 101),
+(4, 'Arul', 103);

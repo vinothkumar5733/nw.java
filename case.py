@@ -27,3 +27,12 @@ while thief > police:
     step+=1
 print(police)
 print(step)
+
+# ex : 04
+
+guard = 4
+i=1
+while guard > i:
+    
+    guard = guard + 2
+    i = i + 1
