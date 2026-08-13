@@ -6,3 +6,5 @@ while station <= 15:
         print('First common station: ', station)
         break
     station+=1
+
+    
