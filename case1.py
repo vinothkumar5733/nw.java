@@ -13,9 +13,11 @@
 
 n = 1092
 i =10
+initial_no = n
 while i < 100:
-    if n % i == 0 and n % i ==10:
-
+    if n % i == 0 :
+        if n // i == 1:
+            print(i) 
         print(i)
 
     i+=1
