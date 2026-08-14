@@ -13,5 +13,10 @@ else:
 n = 1319
 d=2
 while d<n:
-    if N%d ==0:
+    if n%d ==0:
         print('not a prime')
+        break
+    d+=1
+else:
+    print(n)
+    print('prime')
