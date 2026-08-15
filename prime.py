@@ -32,3 +32,12 @@ while d <= n//2:
 else:
     print(d)
     print('prime')
+
+
+# ex:04
+
+num = 1024
+div = 3
+while div<=2:
+    if num *d !=0:
+        print
