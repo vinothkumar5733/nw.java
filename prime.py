@@ -39,9 +39,8 @@
 num = 1024
 div = 3
 while div<=2:
-    if num *d !=0:
+    if num *div !=0:
         print('prime')
 
 
 # ex:05
-
