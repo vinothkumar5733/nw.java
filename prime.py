@@ -68,20 +68,30 @@
 
 # ex:06:
 
-def find_vip(no):
-    div = 2
-    while div <= no//2:
-        if no % div == 0:
-            return 'not vip'
-        div+=1
-    else:
-        return 'vip'
+# def find_vip(no):
+#     div = 2
+#     while div <= no//2:
+#         if no % div == 0:
+#             return 'not vip'
+#         div+=1
+#     else:
+#         return 'vip'
 
-no =2
-count = 0
-while count < 5:
-    result = find_vip(no)
-    if result == 'vip':
-        print(no)
-        count+=1
-    no +=1
+# no =2
+# count = 0
+# while count < 5:
+#     result = find_vip(no)
+#     if result == 'vip':
+#         print(no)
+#         count+=1
+#     no +=1
+
+
+# ex:08
+eaten =0
+balance = 8
+while eaten <= balance:
+    if eaten ==balance//2:
+        print(eaten)
+        break
+eaten+=1
