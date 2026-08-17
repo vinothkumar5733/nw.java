@@ -88,10 +88,20 @@
 
 
 # ex:08
-eaten =0
+
 balance = 8
+eaten =0
 while eaten < 3:
     eate =balance//2
-    balance+=eaten
+    balance+=eate
     eaten+=1
 print("total",balance)
+
+# balance = 8
+# count = 0
+# while count < 3:
+#     eaten = balance // 2
+#     balance+= eaten
+#     count+= 1
+
+# print("total", balance)
