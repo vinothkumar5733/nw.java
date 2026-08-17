@@ -36,17 +36,32 @@
 
 # # ex:04
 
-num = 1024
-div = 3
-while div<=2:
-    if num *div !=0:
-        print('prime')
+# num = 1024
+# div = 3
+# while div<=2:
+#     if num *div !=0:
+#         print('prime')
 
 
-# ex:05
-i = 4
-n = 1
-while n!=i:
-    if n*1 and n**1:
-        print('not valid')
+# # ex:05
+# i = 4
+# n = 1
+# while n!=i:
+#     if n*1 and n**1:
+#         print('not valid')
         
+
+
+# ex:06
+
+security =12
+divider = 2
+while divider <= security:
+    if security % divider == 0:
+        if security % divider == 0 !=2:
+            print("number")
+        print("not prime")
+        break
+    diviser+=1
+else:
+     print("prime")
