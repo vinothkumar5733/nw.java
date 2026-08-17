@@ -54,14 +54,34 @@
 
 # ex:06
 
-security =12
-divider = 2
-while divider <= security:
-    if security % divider == 0:
-        if security % divider == 0 !=2:
-            print("number")
-        print("not prime")
-        break
-    diviser+=1
-else:
-     print("prime")
+# security =12
+# divider = 2
+# while divider <= security:
+#     if security % divider == 0:
+#         if security % divider == 0 !=2:
+#             print("number")
+#         print("not prime")
+#         break
+#     diviser+=1
+# else:
+#      print("prime")
+
+# ex:06:
+
+def find_vip(no):
+    div = 2
+    while div <= no//2:
+        if no % div == 0:
+            return 'not vip'
+        div+=1
+    else:
+        return 'vip'
+
+no =2
+count = 0
+while count < 5:
+    result = find_vip(no)
+    if result == 'vip':
+        print(no)
+        count+=1
+    no +=1
