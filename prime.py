@@ -90,8 +90,8 @@
 # ex:08
 eaten =0
 balance = 8
-while eaten <= balance:
-    if eaten ==balance//2:
-        print(eaten)
-        break
-eaten+=1
+while eaten < 3:
+    eate =balance//2
+    balance+=eaten
+    eaten+=1
+print("total",balance)
