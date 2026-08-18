@@ -107,3 +107,5 @@ print("total",balance)
 # print("total", balance)
 i = int(input("enter a num : "))
 num =2
+
+
