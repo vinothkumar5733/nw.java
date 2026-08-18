@@ -105,3 +105,4 @@ print("total",balance)
 #     count+= 1
 
 # print("total", balance)
+i = int(input("enter a num : "))
