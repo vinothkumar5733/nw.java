@@ -105,7 +105,8 @@ print("total",balance)
 #     count+= 1
 
 # print("total", balance)
-i = int(input("enter a num : "))
-num =2
-
-
+i = 5
+mul = 3
+while mul>=1:
+    if mul *div ==0:
+        print
