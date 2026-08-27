@@ -121,5 +121,14 @@ def checkLuhn(cardNo):
         d = ord(cardNo[i]) - ord('0')
     
         if (isSecond == True):
+            d = d * 2def checkLuhn(cardNo):
+    
+    nDigits = len(cardNo)
+    nSum = 0
+    isSecond = False
+    
+    for i in range(nDigits - 1, -1, -1):
+        d = ord(cardNo[i]) - ord('0')
+    
+        if (isSecond == True):
             d = d * 2
- 
