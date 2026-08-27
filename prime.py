@@ -110,4 +110,3 @@ mul = 3
 while mul>=1:
     if mul *i ==0:
         print("prime")
-
