@@ -12,8 +12,16 @@
 #     print()
 
 
-# pr : 3
-for row in range(1,7):
+# # pr : 3
+# for row in range(1,7):
+#     for col in range(1,row):
+#         print(row + col -1, end =" ")
+#     print()
+
+# pr :4
+
+for row in range(2,7):
     for col in range(1,row):
-        print(row + col -1, end =" ")
+        print(col*2, end=" ")
+
     print()
