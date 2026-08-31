@@ -1,4 +1,5 @@
-for col in range(2,6):
-    for row in range(2,col+1):
-        print("*" , end =" ")
-    # print()
+for col in range(1,5):
+    for row in range(1,col+1):
+        print(col , end =" ")
+    print()
+
