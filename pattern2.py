@@ -9,11 +9,11 @@ for num in range(6,1,-1):
         print(num-col, end=' ')
     print()
 
-no = 6
-for row in range(1, no):
-    for col in range(no - row):
-        print("*", end=" ")
-    print()
+# no = 6
+# for row in range(1, no):
+#     for col in range(no - row):
+#         print("*", end=" ")
+#     print()
 
 
 # program :2
