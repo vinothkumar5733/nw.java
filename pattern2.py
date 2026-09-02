@@ -1,7 +1,7 @@
-for row in range(1,6):
-    print(row)
-    for col in range(1,row+1):
-        print((6-col)*row, end = ' ')
+# for row in range(1,6):
+#     print(row)
+#     for col in range(1,row+1):
+#         print((6-col)*row, end = ' ')
 #     print()
 
 # for num in range(6,1,-1):
@@ -9,8 +9,16 @@ for row in range(1,6):
 #         print(num-col, end=' ')
 #     print()
 
-no = 6
-for row in range(1, no):
-    for col in range(no - row):
-        print("*", end=" ")
+# no = 6
+# for row in range(1, no):
+#     for col in range(no - row):
+#         print("*", end=" ")
+#     print()
+
+
+# program :2
+
+for row in range(A,D):
+    for col in range(1,row+1):
+        print((6-col)*row, end = ' ')
     print()
