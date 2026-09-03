@@ -12,3 +12,15 @@
 
 # 2) Check whether a number is prime
 
+n=8
+i=2
+if n <2:
+    print("not a prime")
+else:
+    while i<n:
+        if n%i==0:
+            print("not a prime")
+            break
+        i+=1
+    else:
+        print("prime")
