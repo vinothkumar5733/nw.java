@@ -13,7 +13,23 @@
 
 # remove back_space
 
-sentence = '"today is my first day at the new job.              "'
+# sentence = '"today is my first day at the new job.              "'
+# i = len(sentence) - 1
+# end = 0
+# while i >= 0:
+#     if sentence[i] == '':
+#         i-=1
+#         continue
+#     else:
+#         end = i
+#         break
+#     i-=1
+# i = 0
+# while i <= end:
+#     print(sentence[i],end ='')
+#     i+=1
+
+sentence = '"today is friday                  "'
 i = len(sentence) - 1
 end = 0
 while i >= 0:
@@ -21,10 +37,12 @@ while i >= 0:
         i-=1
         continue
     else:
-        end = i
-        break
+        end = i 
+        break 
     i-=1
+
 i = 0
 while i <= end:
-    print(sentence[i],end ='')
+    print(sentence[i], end='')
     i+=1
+
