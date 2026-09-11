@@ -16,9 +16,8 @@
 sentence = '"today is my first day at the new job.              "'
 space =' '
 back_space= True
-for letter in sentence:
-    if letter == space and back_space == True:
-        continue
+while back_space == True:
+    if sentence[-1] == space:
+        sentence = sentence[:-1]
     else:
         back_space = False
-        print(letter,end='')
