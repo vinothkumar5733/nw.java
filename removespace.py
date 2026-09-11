@@ -29,20 +29,32 @@
 #     print(sentence[i],end ='')
 #     i+=1
 
-sentence = '"today is friday                  "'
-i = len(sentence) - 1
-end = 0
-while i >= 0:
-    if sentence[i] == '':
-        i-=1
-        continue
+# sentence = '"today is friday                  "'
+# i = len(sentence) - 1
+# end = 0
+# while i >= 0:
+#     if sentence[i] == '':
+#         i-=1
+#         continue
+#     else:
+#         end = i 
+#         break 
+#     i-=1
+
+# i = 0
+# while i <= end:
+#     print(sentence[i], end='')
+#     i+=1
+
+# remove unwanted space
+
+sentence ='today     is      friday'
+previous_letter = True
+for letter in sentence:
+    if letter !='':
+        print(letter,end='')
+        previous_letter = True
     else:
-        end = i 
-        break 
-    i-=1
-
-i = 0
-while i <= end:
-    print(sentence[i], end='')
-    i+=1
-
+        if letter == '' and previous_letter == True:
+            print(letter,end='')
+            previous_letter = False
