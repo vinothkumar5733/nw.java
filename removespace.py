@@ -14,10 +14,17 @@
 # remove back_space
 
 sentence = '"today is my first day at the new job.              "'
-space =' '
-back_space= True
-while back_space == True:
-    if sentence[-1] == space:
-        sentence = sentence[:-1]
+i = len(sentence) - 1
+end = 0
+while i >= 0:
+    if sentence[i] == '':
+        i-=1
+        continue
     else:
-        back_space = False
+        end = i
+        break
+    i-=1
+i = 0
+while i <= end:
+    print(sentence[i],end ='')
+    i+=1
