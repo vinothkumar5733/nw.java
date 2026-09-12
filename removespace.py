@@ -1,15 +1,15 @@
 # remove front_space
 
 
-# sentence = '              today is my first day at the new job.'
-# space =' '
-# front_space= True
-# for letter in sentence:
-#     if letter == space and front_space == True:
-#         continue
-#     else:
-#         front_space = False
-#         print(letter,end='')
+sentence = '              today is my first day at the new job.'
+space =' '
+front_space= True
+for letter in sentence[::-1]:
+    if letter == space and front_space == True:
+        continue
+    else:
+        front_space = False
+        print(letter,end='')
 
 # remove back_space
 
@@ -48,13 +48,14 @@
 
 # remove unwanted space
 
-sentence ='today     is      friday'
-previous_letter = True
-for letter in sentence:
-    if letter !='':
-        print(letter,end='')
-        previous_letter = True
-    else:
-        if letter == '' and previous_letter == True:
-            print(letter,end='')
-            previous_letter = False
+# sentence ='today     is      friday'
+# previous_letter = True
+# for letter in sentence:
+#     if letter !=' ':
+#         print(letter,end='')
+#         previous_letter = True
+#     else:
+#         if letter == ' ' and previous_letter == True:
+#             print(letter,end='')
+#             previous_letter = False
+
