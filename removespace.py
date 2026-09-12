@@ -41,21 +41,21 @@
 #         break 
 #     i-=1
 
-# i = 0
-# while i <= end:
-#     print(sentence[i], end='')
-#     i+=1
+i = 0
+while i <= end:
+    print(sentence[i], end='')
+    i+=1
 
-remove unwanted space
+# remove unwanted space
 
-sentence ='today     is      friday'
-previous_letter = True
-for letter in sentence:
-    if letter !=' ':
-        print(letter,end='')
-        previous_letter = True
-    else:
-        if letter == ' ' and previous_letter == True:
-            print(letter,end='')
-            previous_letter = False
+# sentence ='today     is      friday'
+# previous_letter = True
+# for letter in sentence:
+#     if letter !=' ':
+#         print(letter,end='')
+#         previous_letter = True
+#     else:
+#         if letter == ' ' and previous_letter == True:
+#             print(letter,end='')
+#             previous_letter = False
 
