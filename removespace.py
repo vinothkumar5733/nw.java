@@ -30,16 +30,16 @@
 #     i+=1
 
 # sentence = '"today is friday                  "'
-i = len(sentence) - 1
-end = 0
-while i >= 0:
-    if sentence[i] == '':
-        i-=1
-        continue
-    else:
-        end = i 
-        break 
-    i-=1
+# i = len(sentence) - 1
+# end = 0
+# while i >= 0:
+#     if sentence[i] == '':
+#         i-=1
+#         continue
+#     else:
+#         end = i 
+#         break 
+#     i-=1
 
 # i = 0
 # while i <= end:
