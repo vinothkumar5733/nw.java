@@ -41,10 +41,10 @@ while i >= 0:
         break 
     i-=1
 
-i = 0
-while i <= end:
-    print(sentence[i], end='')
-    i+=1
+# i = 0
+# while i <= end:
+#     print(sentence[i], end='')
+#     i+=1
 
 # remove unwanted space
 
