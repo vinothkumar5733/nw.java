@@ -19,4 +19,18 @@ while i < len(name):
     else:
         print(name[i],end ="")
         i+=1
+
+
+word1 = input("Enter word: ") #cat 
+word2 = input("Enter word: ") #act 
+
+if len(word1) != len(word2):
+    print("Not anagram")
+else:
+    for letter in word1: #cat
+        if word1.count(letter) != word2.count(letter):
+            print('Not anagram')
+            break 
+    else:
+        print('Anagram')
         
