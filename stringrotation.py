@@ -18,17 +18,17 @@ word = list(s)
 
 print(word)
 
-index = 0
-while index < len(word):
-    key = word[index]
-    count = 1
-    i = index + 1
-    while i < len(word):
-        if key != '*' and key == word[i]:
-            word[i] = '*'
-            count+=1
-        i+=1
-    if key != '*' and count==1:
-        print(key, 'is present', count, 'times')
-    index+=1
+# index = 0
+# while index < len(word):
+#     key = word[index]
+#     count = 1
+#     i = index + 1
+#     while i < len(word):
+#         if key != '*' and key == word[i]:
+#             word[i] = '*'
+#             count+=1
+#         i+=1
+#     if key != '*' and count==1:
+#         print(key, 'is present', count, 'times')
+#     index+=1
 #print(word)
