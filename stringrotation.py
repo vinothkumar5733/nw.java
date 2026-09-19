@@ -8,15 +8,15 @@ print(word[0])
 
 #  ex:2
 
-word = 'abcd'
-print(word[-1]+word[:-1])
+# word = 'abcd'
+# print(word[-1]+word[:-1])
 
-# EX:02
+# # EX:02
 
-s = 'VINOTH KUMAR'
-word = list(s)
+# s = 'VINOTH KUMAR'
+# word = list(s)
 
-print(word)
+# print(word)
 
 # index = 0
 # while index < len(word):
