@@ -25,20 +25,20 @@ while n <= 5:
 
 # EX: 03
 
-# max_value = int(input("Enter the maximum value: "))
-# fc = 1
-# n = 1
-# while n <= max_value:
-#     fc = fc * n
-#     n += 1
+max_value = int(input("Enter the maximum value: "))
+fc = 1
+n = 1
+while n <= max_value:
+    fc = fc * n
+    n += 1
 
 
 # ex 04
 
-num = int(input("Enter a number: "))
-print(num * 2)
-for i in range(1, 6):
-    print(num * 2)
+# num = int(input("Enter a number: "))
+# print(num * 2)
+# for i in range(1, 6):
+#     print(num * 2)
 
 
 # ex 04
