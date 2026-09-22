@@ -18,6 +18,14 @@
 
 # LIST DAY 03
 
-l1 = [10,20,10,20,30,40]
-l2 =list(set(l1))
-print(l2)
+# l1 = [10,20,10,20,30,40]
+# l2 =list(set(l1))
+# print(l2)
+
+# ex:02
+l3 = [10,20,10,20,30,40]
+l4 =[]
+for i in l3:
+    if i not in l4:
+        l4.append(i)
+print(l4)
