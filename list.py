@@ -14,4 +14,4 @@ l = [l1,l2,l3]
 result = sum(l1)+sum(l2)+sum(l3)
 average = result/3
 print(result)
-print
+print(average)
