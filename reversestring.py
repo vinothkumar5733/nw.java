@@ -10,15 +10,15 @@ print(sentence2)
 
 # ex2: camel case
 
-# name = "vinoth kumar tuticorin"
-# i = 0
-# while i < len(name):
-#     if name[i] == " ":
-#         print(name[i+1].upper(),end ="")
-#         i+=1
-#     else:
-#         print(name[i],end ="")
-#         i+=1
+name = "vinoth kumar tuticorin"
+i = 0
+while i < len(name):
+    if name[i] == " ":
+        print(name[i+1].upper(),end ="")
+        i+=1
+    else:
+        print(name[i],end ="")
+        i+=1
 
 
 # word1 = input("Enter word: ") #cat 
