@@ -22,11 +22,11 @@ print(alpha+numbers)
 
 # example : 02
 
-s = 'a1b2c3'
+# s = 'a1b2c3'
 
-print(s[0] + chr(ord(s[0]) + int(s[1])))
-print(s[2] + chr(ord(s[2]) + int(s[3])))
-print(s[4] + chr(ord(s[4]) + int(s[5])))
+# print(s[0] + chr(ord(s[0]) + int(s[1])))
+# print(s[2] + chr(ord(s[2]) + int(s[3])))
+# print(s[4] + chr(ord(s[4]) + int(s[5])))
 
 # ex:03
 
