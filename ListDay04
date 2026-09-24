@@ -1,0 +1,21 @@
+s = 'a1b2c3'
+#output: abc123
+
+
+
+# a1b2c3
+# 123 
+
+# abc123
+alpha = ''
+numbers = ''
+
+for letter in s:
+    if letter >='a' and letter <= 'z':
+        alpha+=letter 
+
+for letter in s:
+    if letter >='0' and letter <= '9':
+        numbers+=letter
+
+print(alpha+numbers)
