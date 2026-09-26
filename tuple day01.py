@@ -9,3 +9,5 @@ print(100 not in t1)
 data = ([10,20,30],[40,50,60])
 for list in data:
     print(sum(list))
+
+
