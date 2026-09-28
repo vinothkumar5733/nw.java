@@ -15,10 +15,9 @@
 # print(word)
 
 
-# s = 'akilan'
-# word = list(s)
-
-# print(word)
+s = 'akilan'
+word = list(s)
+print(word)
 
 # key = word[0]
 # count = 1
