@@ -23,15 +23,15 @@
 
 # # ex:03
 
-# n = 1319
-# d = 2
-# while d <= n//2:
-#     if n%d == 0:
-#         print('not a prime')
-#     d+=1
-# else:
-#     print(d)
-#     print('prime')
+n = 1319
+d = 2
+while d <= n//2:
+    if n%d == 0:
+        print('not a prime')
+    d+=1
+else:
+    print(d)
+    print('prime')
 
 
 # # ex:04
