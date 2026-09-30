@@ -48,14 +48,14 @@
 
 # remove unwanted space
 
-# sentence ='today     is      friday'
-# previous_letter = True
-# for letter in sentence:
-#     if letter !=' ':
-#         print(letter,end='')
-#         previous_letter = True
-#     else:
-#         if letter == ' ' and previous_letter == True:
-#             print(letter,end='')
-#             previous_letter = False
+sentence ='today     is      friday'
+previous_letter = True
+for letter in sentence:
+    if letter !=' ':
+        print(letter,end='')
+        previous_letter = True
+    else:
+        if letter == ' ' and previous_letter == True:
+            print(letter,end='')
+            previous_letter = False
 
