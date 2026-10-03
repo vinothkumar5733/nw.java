@@ -44,11 +44,11 @@ while div<=2:
 
 
 # # ex:05
-# i = 4
-# n = 1
-# while n!=i:
-#     if n*1 and n**1:
-#         print('not valid')
+i = 4
+n = 1
+while n!=i:
+    if n*1 and n**1:
+        print('not valid')
         
 
 
@@ -68,14 +68,14 @@ while div<=2:
 
 # ex:06:
 
-# def find_vip(no):
-#     div = 2
-#     while div <= no//2:
-#         if no % div == 0:
-#             return 'not vip'
-#         div+=1
-#     else:
-#         return 'vip'
+def find_vip(no):
+    div = 2
+    while div <= no//2:
+        if no % div == 0:
+            return 'not vip'
+        div+=1
+    else:
+        return 'vip'
 
 # no =2
 # count = 0
