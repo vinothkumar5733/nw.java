@@ -98,15 +98,15 @@ while eaten < 3:
 print("total",balance)
 
 # balance = 8
-# count = 0
-# while count < 3:
-#     eaten = balance // 2
-#     balance+= eaten
-#     count+= 1
+count = 0
+while count < 3:
+    eaten = balance // 2
+    balance+= eaten
+    count+= 1
 
 # print("total", balance)
-i = 5
-mul = 3
-while mul>=1:
-    if mul *i ==0:
-        print("prime")
+# i = 5
+# mul = 3
+# while mul>=1:
+#     if mul *i ==0:
+#         print("prime")
