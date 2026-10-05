@@ -54,17 +54,17 @@ while n!=i:
 
 # ex:06
 
-# security =12
-# divider = 2
-# while divider <= security:
-#     if security % divider == 0:
-#         if security % divider == 0 !=2:
-#             print("number")
-#         print("not prime")
-#         break
-#     diviser+=1
-# else:
-#      print("prime")
+security =12
+divider = 2
+while divider <= security:
+    if security % divider == 0:
+        if security % divider == 0 !=2:
+            print("number")
+        print("not prime")
+        break
+    diviser+=1
+else:
+     print("prime")
 
 # ex:06:
 
