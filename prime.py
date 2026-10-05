@@ -36,19 +36,19 @@
 
 # # ex:04
 
-num = 1024
-div = 3
-while div<=2:
-    if num *div !=0:
-        print('prime')
+# num = 1024
+# div = 3
+# while div<=2:
+#     if num *div !=0:
+#         print('prime')
 
 
 # # ex:05
-i = 4
-n = 1
-while n!=i:
-    if n*1 and n**1:
-        print('not valid')
+# i = 4
+# n = 1
+# while n!=i:
+#     if n*1 and n**1:
+#         print('not valid')
         
 
 
