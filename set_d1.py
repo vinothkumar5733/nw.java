@@ -7,10 +7,10 @@ print(tel)
 
 # ex 02:
 
-# s = {'Hi', 10,20,True}
+s = {'Hi', 10,20,True}
 
-# s.remove('Hello')
-# print(s)
+s.remove('Hello')
+print(s)
 
-# s.discard('Hello')
-# print(s)
+s.discard('Hello')
+print(s)
