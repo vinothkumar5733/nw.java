@@ -1,9 +1,9 @@
-# for row in range(1,6):
-#     for col in range(1, row):
-#         print("*", end = ' ')
-#     for star in range(1,6):
-#         print(1, end = ' ')
-#     print()
+for row in range(1,6):
+    for col in range(1, row):
+        print("*", end = ' ')
+    for star in range(1,6):
+        print(1, end = ' ')
+    print()
 
 # program :2
 
