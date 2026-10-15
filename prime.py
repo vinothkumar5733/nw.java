@@ -43,12 +43,12 @@ else:
 #         print('prime')
 
 
-# # ex:05
-# i = 4
-# n = 1
-# while n!=i:
-#     if n*1 and n**1:
-#         print('not valid')
+# ex:05
+i = 4
+n = 1
+while n!=i:
+    if n*1 and n**1:
+        print('not valid')
         
 
 
