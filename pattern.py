@@ -6,10 +6,10 @@ for col in range(1,5):
 
 # program : 2
 
-# for i in range(2,7):
-#     for j in range(1,i):
-#         print(i+1, end =" ")
-#     print()
+for i in range(2,7):
+    for j in range(1,i):
+        print(i+1, end =" ")
+    print()
 
 
 # # pr : 3
