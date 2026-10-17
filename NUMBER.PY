@@ -16,12 +16,12 @@ button = button + 1
 
 n = 0
 i = 1
-while n <= 5:
-    n = n + 15
-    i = i * 25
-    print(n, i)
-    if(n == 5 and i == 5):
-     print(n + 40)
+# while n <= 5:
+#     n = n + 15
+#     i = i * 25
+#     print(n, i)
+#     if(n == 5 and i == 5):
+#      print(n + 40)
 
 # EX: 03
 
