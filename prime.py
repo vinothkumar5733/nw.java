@@ -89,13 +89,13 @@ while count < 5:
 
 # ex:08
 
-# balance = 8
-# eaten =0
-# while eaten < 3:
-#     eate =balance//2
-#     balance+=eate
-#     eaten+=1
-# print("total",balance)
+balance = 8
+eaten =0
+while eaten < 3:
+    eate =balance//2
+    balance+=eate
+    eaten+=1
+print("total",balance)
 
 # balance = 8
 count = 0
