@@ -68,14 +68,14 @@ while n!=i:
 
 # ex:06:
 
-# def find_vip(no):
-#     div = 2
-#     while div <= no//2:
-#         if no % div == 0:
-#             return 'not vip'
-#         div+=1
-#     else:
-#         return 'vip'
+def find_vip(no):
+    div = 2
+    while div <= no//2:
+        if no % div == 0:
+            return 'not vip'
+        div+=1
+    else:
+        return 'vip'
 
 # no =2
 # count = 0
