@@ -34,13 +34,13 @@ else:
     print('prime')
 
 
-# # ex:04
+# ex:04
 
-# num = 1024
-# div = 3
-# while div<=2:
-#     if num *div !=0:
-#         print('prime')
+num = 1024
+div = 3
+while div<=2:
+    if num *div !=0:
+        print('prime')
 
 
 # ex:05
