@@ -77,14 +77,14 @@ def find_vip(no):
     else:
         return 'vip'
 
-# no =2
-# count = 0
-# while count < 5:
-#     result = find_vip(no)
-#     if result == 'vip':
-#         print(no)
-#         count+=1
-#     no +=1
+no =2
+count = 0
+while count < 5:
+    result = find_vip(no)
+    if result == 'vip':
+        print(no)
+        count+=1
+    no +=1
 
 
 # ex:08
