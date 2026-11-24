@@ -35,13 +35,13 @@ while n <= max_value:
 
 # ex 04
 
-num = int(input("Enter a number: "))
-print(num * 2)
-for i in range(1, 6):
-    print(num * 2)
+# num = int(input("Enter a number: "))
+# print(num * 2)
+# for i in range(1, 6):
+#     print(num * 2)
 
 
-# ex 04
+# # ex 04
 
-for i in range(1, 5):
-    print(i * 2)
+# for i in range(1, 5):
+#     print(i * 2)
