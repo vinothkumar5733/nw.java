@@ -1,7 +1,7 @@
-# for col in range(1,5):
-#     for row in range(1,col+1):
-#         print(col , end =" ")
-#     print()
+for col in range(1,5):
+    for row in range(1,col+1):
+        print(col , end =" ")
+    print()
 
 
 # program : 2
@@ -20,7 +20,7 @@ for row in range(1,7):
 
 # pr :4
 
-# for row in range(2,7):
-#     for col in range(1,row):
-#         print(col*2, end=" ")
+for row in range(2,7):
+    for col in range(1,row):
+        print(col*2, end=" ")
         
